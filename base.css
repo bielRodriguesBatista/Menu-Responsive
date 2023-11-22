@@ -4,23 +4,37 @@
     border: 0;
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-}
-
-.container-two{
+.container{
     display: flex;
     position: absolute;
     left: 25%;
     top: 25%;
-    justify-content: center;
-    align-items: center;
     max-width: 1440px;
     max-height: 900px;
+}
+
+.title {
+    text-align: center;
+}
+
+.cnt-and-topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .image {
     width: 344px;
     height: 384px;
+}
+
+.btn_email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: 1px solid red;
+
 }
